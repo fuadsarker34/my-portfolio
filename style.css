@@ -1,0 +1,175 @@
+body{
+  padding: 0 ;
+  margin: 0;
+}
+.header-container{
+display: flex;
+margin-top: 30px;
+margin-bottom: 20px;
+margin-left: 50px;
+margin-right: 50px;
+width: 90%;
+}
+
+.header-content{
+  margin: 30px 50px;
+  width: 60%;
+}
+
+.image-content{
+  margin: 30px 70px;
+  width: 40%;
+}
+
+#left-line{
+  border-left: 3px solid red;
+  padding-left: 8px;
+}
+
+.highlight-orange{
+  color: orange;
+}
+
+.detail-information{
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 5px 15px;
+  color: white;
+
+}
+
+.mission-header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mission-container{
+  display: flex;
+  margin-left: 80px;
+margin-right: 50px;
+width: 90%;
+}
+
+#my-mission{
+  width: 30%;
+  box-shadow: 10px 10px 30px gray ;
+  background-color:lightblue;
+  margin-right: 40px;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+
+#my-vission{
+  width: 30%;
+  box-shadow: 10px 10px 30px gray ;
+  background-color:linen;
+  margin-right: 40px;
+  padding: 30px;
+  border-radius: 10px;
+
+
+}
+
+#my-goals{
+  width: 30%;
+  box-shadow: 10px 10px 30px gray ;
+  background-color:cornsilk;
+  margin-right: 40px;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+
+.develop-container{
+  display: flex;
+  margin: 60px 40px;
+  background-image: url("./images/shapes/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  width: 90%;
+}
+.develop-image-content{
+  margin-left: 100px;
+  width: 40%;
+}
+
+.develop-content{
+  margin: 40px 100px;
+  padding: 20px;
+}
+
+.community-container{
+
+  display: flex;
+  margin: 30px 40px;
+  background-image: url("./images/shapes/shape-1.png");
+  background-size: 320px;
+  background-repeat: no-repeat;
+  background-position:right bottom;
+  width: 90%;
+}
+
+.global-content{
+  margin: 50px 50px;
+  width: 60%;
+
+}
+
+.exparties{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 80%;
+
+}
+
+.flex-container {
+ 
+  display: flex;
+  list-style-type: none;
+  
+}
+.flex-container li{
+  margin-top: 80px 80px 30px 80px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.wrap{ 
+  
+  flex-wrap: wrap;
+} 
+
+.image-resize{
+  width: 60px;
+  height: 60x;
+  margin-top: 25px;
+ 
+
+}
+
+.experties{
+  margin-left: 30px;
+  color: darkblue;
+}
+
+.footer{
+  background-color: black;
+  height: 100px;
+  
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+
+.footer-text-color{
+  color: orangered;
+}
+h1{
+  font-size: 50px;
+}
+.footer-text{
+  font-family: 'Lobster', cursive;
+}
